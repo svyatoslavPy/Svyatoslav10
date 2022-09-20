@@ -1,31 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 .container {
-  width: 90%;
+  width: 89%;
   margin: 0 auto;
-  padding: 25px;
+  padding: 20px;
 }
 
-.container {
+.header__logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.container .nav {
+.header__logo .nav {
   display: flex;
   align-items: center;
 }
-.container .nav__additionally {
+.header__logo .nav__additionally {
   display: flex;
-  color: #6C6C6C;
+  color: #6c6c6c;
   font-family: "Open Sans", sans-serif;
   -moz-column-gap: 36px;
        column-gap: 36px;
 }
-.container .nav__additionally .nav__element::before {
+.header__logo .nav__additionally .nav__item--primary {
+  position: relative;
+}
+.header__logo .nav__additionally .nav__item--primary .nav__element::before {
+  position: absolute;
   display: block;
   content: "";
-  width: 66px;
+  width: 72px;
   height: 3.5px;
-  margin: 10px 0px 0px 0px;
+  top: 50px;
   background-color: rgb(60, 128, 255);
+}
+
+.main .main__background {
+  background-image: url(/images/header-bg.png);
 }/*# sourceMappingURL=style.css.map */
