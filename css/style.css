@@ -1,0 +1,20 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .nav {
+  display: flex;
+  align-items: center;
+}
+.container .nav__additionally {
+  display: flex;
+  -moz-column-gap: 36px;
+       column-gap: 36px;
+}/*# sourceMappingURL=style.css.map */
