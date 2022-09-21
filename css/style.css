@@ -36,7 +36,8 @@
 }
 
 .main .main__background {
-  background-image: url(/images/header-bg.png);
+  background-image: url(/images/background.png);
+  background-size: cover;
 }
 .main .main__background .info__wrapper {
   display: flex;
@@ -69,7 +70,7 @@
        column-gap: 5px;
   font-size: 1.2rem;
   width: 170px;
-  padding: 10px;
+  padding: 7px;
   border-radius: 2px;
   font-family: "Open Sans", sans-serif;
   color: white;
@@ -87,13 +88,29 @@
   font-family: "Open Sans", sans-serif;
   flex-direction: column;
 }
-.main .picture__wrapper .picture__items .picture__element {
-  position: relative;
+.main .picture__wrapper .picture__items .picture__element,
+.main .picture__wrapper .picture__items .picture__element--special,
+.main .picture__wrapper .picture__items .picture__element--primary {
+  width: 186px;
+  height: 186px;
+  border-radius: 50%;
 }
-.main .picture__wrapper .picture__items .picture__element .element {
-  position: absolute;
-  bottom: 45px;
-  left: 49px;
+.main .picture__wrapper .picture__items .picture__element .picture-element__items,
+.main .picture__wrapper .picture__items .picture__element--special .picture-element__items,
+.main .picture__wrapper .picture__items .picture__element--primary .picture-element__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 35px;
+}
+.main .picture__wrapper .picture__items .picture__element {
+  background-color: rgb(58, 142, 225);
+}
+.main .picture__wrapper .picture__items .picture__element--primary {
+  background-color: rgb(169, 36, 36);
+}
+.main .picture__wrapper .picture__items .picture__element--special {
+  background-color: rgb(233, 184, 8);
 }
 .main .picture__wrapper .picture__items .picture__text--primary {
   color: rgb(0, 140, 255);
@@ -121,7 +138,7 @@
 }
 .main .about-shoping .about__items .about__text {
   font-size: 2.7rem;
-  color: #6F7173;
+  color: #6f7173;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 46px;
 }
