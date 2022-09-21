@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .container {
-  width: 89%;
+  width: 77%;
   margin: 0 auto;
   padding: 20px;
 }
@@ -16,10 +17,10 @@
 }
 .header__logo .nav__additionally {
   display: flex;
-  color: #6c6c6c;
-  font-family: "Open Sans", sans-serif;
   -moz-column-gap: 36px;
        column-gap: 36px;
+  color: #6c6c6c;
+  font-family: "Open Sans", sans-serif;
 }
 .header__logo .nav__additionally .nav__item--primary {
   position: relative;
@@ -36,4 +37,8 @@
 
 .main .main__background {
   background-image: url(/images/header-bg.png);
+}
+.main .main__background .info-log__items {
+  color: white;
+  font-family: "Roboto", sans-serif;
 }/*# sourceMappingURL=style.css.map */

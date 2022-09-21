@@ -4,8 +4,10 @@ $primary-color: #6c6c6c;
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .container {
-  width: 89%;
+  width: 77%;
   margin: 0 auto;
   padding: 20px;
 }
@@ -19,9 +21,9 @@ $primary-color: #6c6c6c;
 
   .nav__additionally {
     @include flex(flex, false, false, false);
+    column-gap: 36px;
     color: $primary-color;
     font-family: "Open Sans", sans-serif;
-    column-gap: 36px;
 
     .nav__item--primary {
       position: relative;
@@ -40,7 +42,16 @@ $primary-color: #6c6c6c;
 }
 
 .main {
+
   .main__background {
     background-image: url(/images/header-bg.png);
+
+    .info-log__items {
+      color: white;
+      font-family: 'Roboto', sans-serif;
+    }
+
+
   }
+
 }
