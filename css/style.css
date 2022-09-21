@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .container {
-  width: 77%;
+  width: 75%;
   margin: 0 auto;
   padding: 20px;
 }
@@ -38,7 +38,118 @@
 .main .main__background {
   background-image: url(/images/header-bg.png);
 }
-.main .main__background .info-log__items {
-  color: white;
+.main .main__background .info__wrapper {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 104px;
+       column-gap: 104px;
+}
+.main .main__background .info__wrapper .info-log__items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
+}
+.main .main__background .info__wrapper .info-log__items .info-log__text--primary {
+  font-size: 2.2rem;
+}
+.main .main__background .info__wrapper .info-log__items .info-log__text {
+  color: white;
+  margin: 18px 0px 0px 0px;
+}
+.main .main__background .info__wrapper .info-log__items .btn {
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.main .main__background .info__wrapper .info-log__items .btn .btn__items {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  font-size: 1.2rem;
+  width: 170px;
+  padding: 10px;
+  border-radius: 2px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  background-color: rgb(0, 140, 255);
+}
+.main .picture__wrapper {
+  display: flex;
+  -moz-column-gap: 70px;
+       column-gap: 70px;
+  margin-top: 30px;
+}
+.main .picture__wrapper .picture__items {
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  flex-direction: column;
+}
+.main .picture__wrapper .picture__items .picture__element {
+  position: relative;
+}
+.main .picture__wrapper .picture__items .picture__element .element {
+  position: absolute;
+  bottom: 45px;
+  left: 49px;
+}
+.main .picture__wrapper .picture__items .picture__text--primary {
+  color: rgb(0, 140, 255);
+  font-size: 1.3rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.main .picture__wrapper .picture__items .picture__text {
+  width: 316px;
+  margin-bottom: 124px;
+  text-align: center;
+  line-height: 25px;
+  color: #6c6c6c;
+}
+.main .about-shoping {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+  margin-left: 55px;
+}
+.main .about-shoping .about__items {
+  display: flex;
+  flex-direction: column;
+}
+.main .about-shoping .about__items .about__text {
+  font-size: 2.7rem;
+  color: #6F7173;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 46px;
+}
+.main .about-shoping .about__texts {
+  margin-top: 33px;
+}
+.main .about-shoping .about__texts .about__text--special {
+  font-size: 1.5rem;
+  margin-bottom: 22px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(114, 112, 112);
+}
+.main .about-shoping .about__texts .about__text--primary {
+  color: gray;
+  line-height: 40px;
+}
+.main .about-shoping .about__texts .about__text--secondary {
+  width: 345px;
+}
+
+.footer {
+  margin-top: 45px;
+  border-top: 1px solid rgb(228, 228, 228);
+}
+.footer .footer__inner {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  font-family: "Open Sans", sans-serif;
+  color: gray;
 }/*# sourceMappingURL=style.css.map */

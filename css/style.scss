@@ -1,13 +1,14 @@
 $primary-color: #6c6c6c;
+$special-color: white;
 
 @import "mixin";
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 .container {
-  width: 77%;
+  width: 75%;
   margin: 0 auto;
   padding: 20px;
 }
@@ -42,16 +43,137 @@ $primary-color: #6c6c6c;
 }
 
 .main {
-
   .main__background {
     background-image: url(/images/header-bg.png);
 
-    .info-log__items {
-      color: white;
-      font-family: 'Roboto', sans-serif;
+    .info__wrapper {
+      display: flex;
+      justify-content: center;
+      column-gap: 104px;
+
+      .info-log__items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.5rem;
+        font-family: "Roboto", sans-serif;
+
+        .info-log__text--primary {
+          font-size: 2.2rem;
+        }
+
+        .info-log__text {
+          color: $special-color;
+          margin: 18px 0px 0px 0px;
+        }
+
+        .btn {
+          margin-top: 25px;
+          margin-left: 20px;
+
+          .btn__items {
+            display: flex;
+            justify-content: center;
+            column-gap: 5px;
+            font-size: 1.2rem;
+            width: 170px;
+            padding: 10px;
+            border-radius: 2px;
+            font-family: "Open Sans", sans-serif;
+            color: $special-color;
+            background-color: rgb(0, 140, 255);
+          }
+        }
+      }
     }
-
-
   }
 
+  .picture__wrapper {
+    display: flex;
+    column-gap: 70px;
+    margin-top: 30px;
+
+    .picture__items {
+      display: flex;
+      align-items: center;
+      font-family: "Open Sans", sans-serif;
+      flex-direction: column;
+
+      .picture__element {
+        position: relative;
+
+        .element {
+          position: absolute;
+          bottom: 45px;
+          left: 49px;
+        }
+      }
+
+      .picture__text--primary {
+        color: rgb(0, 140, 255);
+        font-size: 1.3rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .picture__text {
+        width: 316px;
+        margin-bottom: 124px;
+        text-align: center;
+        line-height: 25px;
+        color: $primary-color;
+      }
+    }
+  }
+  .about-shoping {
+    display: flex;
+    align-items: center;
+    column-gap: 80px;
+    margin-left: 55px;
+
+    .about__items {
+      display: flex;
+      flex-direction: column;
+
+      .about__text {
+        font-size: 2.7rem;
+        color: #6F7173;
+        font-family: "Open Sans", sans-serif;
+        margin-bottom: 46px;
+      }
+    }
+
+    .about__texts {
+      margin-top: 33px;
+
+
+      .about__text--special {
+        font-size: 1.5rem;
+        margin-bottom: 22px;
+        font-family: "Open Sans", sans-serif;
+        color: rgb(114, 112, 112);
+      }
+
+      .about__text--primary {
+        color: gray;
+        line-height: 40px;
+      }
+
+      .about__text--secondary {
+        width: 345px;
+      }
+    }
+  }
+}
+.footer {
+  margin-top: 45px;
+  border-top: 1px solid rgb(228, 228, 228);
+
+  .footer__inner {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-family: "Open Sans", sans-serif;
+    color: gray;
+  }
 }
