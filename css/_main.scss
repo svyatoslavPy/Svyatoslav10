@@ -1,4 +1,5 @@
 .main {
+<<<<<<< HEAD
   .main__inner {
     background-image: url(../images/background.png);
     background-size: cover;
@@ -10,6 +11,30 @@
       .info-log__items {
         @include flex(flex, center, column, false);
         @include font(1.5rem);
+=======
+  width: 100%;
+  .main__background {
+    width: 100%;
+    background-image: url(/images/background.png);
+    background-size: cover;
+
+    .info__wrapper {
+      flex-wrap: wrap;
+      @include flex(flex, center, false, false);
+      column-gap: 104px;
+
+      .info__wrapper img {
+        min-width: 400px;
+        @media (max-width: 800px) {
+          opacity: 0.5;
+        }
+      }
+
+      .info-log__items {
+        @include flex(flex, center, column, false);
+        @include font(1.5rem);
+        max-width: 400px;
+>>>>>>> refs/remotes/origin/main
 
         .info-log__text--primary {
           font-size: 2.2rem;
@@ -26,7 +51,11 @@
           .btn__items {
             @include flex(flex, center, false, false);
             column-gap: 5px;
+<<<<<<< HEAD
             width: 170px;
+=======
+            width: 180px;
+>>>>>>> refs/remotes/origin/main
             padding: 7px;
             border-radius: 2px;
             font-size: 1.2rem;
@@ -59,33 +88,47 @@
       .picture__element--primary {
         width: 186px;
         height: 186px;
+<<<<<<< HEAD
         transition: 1s;
+=======
+>>>>>>> refs/remotes/origin/main
         border-radius: 50%;
 
         .picture-element__items {
           @include flex(flex, center, false, center);
+<<<<<<< HEAD
           height: 190px;
+=======
+          padding: 40px 0px 40px 0px;
+>>>>>>> refs/remotes/origin/main
         }
       }
 
       .picture__element {
         background-color: rgb(58, 142, 225);
+<<<<<<< HEAD
 
         &:hover {
           background-color: rgb(42, 93, 144);
         }
+=======
+>>>>>>> refs/remotes/origin/main
       }
 
       .picture__element--primary {
         background-color: rgb(217, 65, 65);
+<<<<<<< HEAD
 
         &:hover {
           background-color: rgb(124, 37, 37);
         }
+=======
+>>>>>>> refs/remotes/origin/main
       }
 
       .picture__element--special {
         background-color: rgb(233, 184, 8);
+<<<<<<< HEAD
 
         &:hover {
           background-color: rgb(157, 123, 3);
@@ -94,12 +137,21 @@
 
       .picture__text--primary {
         margin: 20px 0px;
+=======
+      }
+
+      .picture__text--primary {
+        margin: 20px 0px 20px 0px;
+>>>>>>> refs/remotes/origin/main
         font-size: 1.3rem;
         color: rgb(0, 140, 255);
       }
 
       .picture__text {
+<<<<<<< HEAD
         width: 316px;
+=======
+>>>>>>> refs/remotes/origin/main
         margin: 0px 0px 124px 0px;
         text-align: center;
         line-height: 25px;
@@ -107,7 +159,10 @@
       }
     }
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/main
   .about-shoping {
     @include flex(flex, false, false, false);
     column-gap: 80px;
@@ -118,6 +173,10 @@
 
       .about__text {
         @include font(2.7rem);
+<<<<<<< HEAD
+=======
+        width: 200%;
+>>>>>>> refs/remotes/origin/main
         color: #6f7173;
         margin: 0px 0px 46px 0px;
       }
@@ -138,8 +197,16 @@
       }
 
       .about__text--secondary {
+<<<<<<< HEAD
         width: 345px;
       }
     }
   }
 }
+=======
+        width: 64%;
+      }
+    }
+  }
+}
+>>>>>>> refs/remotes/origin/main

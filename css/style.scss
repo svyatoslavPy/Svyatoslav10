@@ -1,5 +1,6 @@
 $primary-color: #6c6c6c;
 $special-color: white;
+<<<<<<< HEAD
 $font:  "Open Sans", sans-serif; // main font-family
 
 
@@ -13,15 +14,28 @@ $font:  "Open Sans", sans-serif; // main font-family
  
 @import "footer"; // footer
 
+=======
+$font: 'Open Sans', sans-serif; // main font-family
 
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import 'reset'; // reset.css
+>>>>>>> refs/remotes/origin/main
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import 'mixin/mixin'; // mixin
+
+@import 'header'; // header
+
+@import 'main'; // main
+
+@import 'footer'; // footer
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .container {
-  width: 75%;
-  margin: 0 auto;
-  padding: 20px;
+	max-width: 72%;
+	margin: 0 auto;
+	padding: 20px;
 }
 
 

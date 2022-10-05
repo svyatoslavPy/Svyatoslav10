@@ -29,10 +29,6 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
-.header__logo .nav {
-  display: flex;
-  align-items: center;
-}
 .header__logo .nav__additionally {
   display: flex;
   -moz-column-gap: 36px;
@@ -56,28 +52,62 @@ ul {
   position: absolute;
   content: "";
   display: block;
+<<<<<<< HEAD
   width: 72px;
   height: 3.5px;
+=======
+  width: 105%;
+  height: 15.5%;
+>>>>>>> refs/remotes/origin/main
   top: 50px;
   background-color: rgb(60, 128, 255);
 }
 
+<<<<<<< HEAD
 .main .main__inner {
   background-image: url(../images/background.png);
   background-size: cover;
 }
 .main .main__inner .info__wrapper {
+=======
+.main {
+  width: 100%;
+}
+.main .main__background {
+  width: 100%;
+  background-image: url(/images/background.png);
+  background-size: cover;
+}
+.main .main__background .info__wrapper {
+  flex-wrap: wrap;
+>>>>>>> refs/remotes/origin/main
   display: flex;
   justify-content: center;
   -moz-column-gap: 104px;
        column-gap: 104px;
 }
+<<<<<<< HEAD
 .main .main__inner .info__wrapper .info-log__items {
+=======
+.main .main__background .info__wrapper .info__wrapper img {
+  min-width: 400px;
+}
+@media (max-width: 800px) {
+  .main .main__background .info__wrapper .info__wrapper img {
+    opacity: 0.5;
+  }
+}
+.main .main__background .info__wrapper .info-log__items {
+>>>>>>> refs/remotes/origin/main
   display: flex;
   justify-content: center;
   flex-direction: column;
   font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
+<<<<<<< HEAD
+=======
+  max-width: 400px;
+>>>>>>> refs/remotes/origin/main
 }
 .main .main__inner .info__wrapper .info-log__items .info-log__text--primary {
   font-size: 2.2rem;
@@ -86,7 +116,11 @@ ul {
   color: white;
   margin: 18px 0px 0px 0px;
 }
+<<<<<<< HEAD
 .main .main__inner .info__wrapper .info-log__items .btn {
+=======
+.main .main__background .info__wrapper .info-log__items .btn {
+>>>>>>> refs/remotes/origin/main
   margin: 25px 0px 0px 20px;
 }
 .main .main__inner .info__wrapper .info-log__items .btn .btn__items {
@@ -94,7 +128,11 @@ ul {
   justify-content: center;
   -moz-column-gap: 5px;
        column-gap: 5px;
+<<<<<<< HEAD
   width: 170px;
+=======
+  width: 180px;
+>>>>>>> refs/remotes/origin/main
   padding: 7px;
   border-radius: 2px;
   font-size: 1.2rem;
@@ -102,7 +140,11 @@ ul {
   background-color: rgb(0, 140, 255);
   transition: 0.5s;
 }
+<<<<<<< HEAD
 .main .main__inner .info__wrapper .info-log__items .btn .btn__items:hover {
+=======
+.main .main__background .info__wrapper .info-log__items .btn .btn__items:hover {
+>>>>>>> refs/remotes/origin/main
   background-color: rgb(44, 130, 217);
   transition: 0.5s;
 }
@@ -133,7 +175,11 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
   height: 190px;
+=======
+  padding: 40px 0px 40px 0px;
+>>>>>>> refs/remotes/origin/main
 }
 .main .picture__wrapper .picture__items .picture__element {
   background-color: rgb(58, 142, 225);
@@ -143,9 +189,12 @@ ul {
 }
 .main .picture__wrapper .picture__items .picture__element--primary {
   background-color: rgb(217, 65, 65);
+<<<<<<< HEAD
 }
 .main .picture__wrapper .picture__items .picture__element--primary:hover {
   background-color: rgb(124, 37, 37);
+=======
+>>>>>>> refs/remotes/origin/main
 }
 .main .picture__wrapper .picture__items .picture__element--special {
   background-color: rgb(233, 184, 8);
@@ -154,12 +203,19 @@ ul {
   background-color: rgb(157, 123, 3);
 }
 .main .picture__wrapper .picture__items .picture__text--primary {
+<<<<<<< HEAD
   margin: 20px 0px;
+=======
+  margin: 20px 0px 20px 0px;
+>>>>>>> refs/remotes/origin/main
   font-size: 1.3rem;
   color: rgb(0, 140, 255);
 }
 .main .picture__wrapper .picture__items .picture__text {
+<<<<<<< HEAD
   width: 316px;
+=======
+>>>>>>> refs/remotes/origin/main
   margin: 0px 0px 124px 0px;
   text-align: center;
   line-height: 25px;
@@ -178,6 +234,10 @@ ul {
 .main .about-shoping .about__items .about__text {
   font-family: "Open Sans", sans-serif;
   font-size: 2.7rem;
+<<<<<<< HEAD
+=======
+  width: 200%;
+>>>>>>> refs/remotes/origin/main
   color: #6f7173;
   margin: 0px 0px 46px 0px;
 }
@@ -195,7 +255,7 @@ ul {
   line-height: 40px;
 }
 .main .about-shoping .about__texts .about__text--secondary {
-  width: 345px;
+  width: 64%;
 }
 
 .footer {
@@ -205,13 +265,17 @@ ul {
 .footer .footer__items {
   display: flex;
   justify-content: center;
-  padding: 40px;
+  padding: 20px;
   font-family: "Open Sans", sans-serif;
   color: gray;
 }
 
 .container {
+<<<<<<< HEAD
   width: 75%;
+=======
+  max-width: 72%;
+>>>>>>> refs/remotes/origin/main
   margin: 0 auto;
   padding: 20px;
 }/*# sourceMappingURL=style.css.map */
