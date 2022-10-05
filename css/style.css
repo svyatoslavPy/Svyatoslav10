@@ -84,10 +84,10 @@ ul {
 }
 .main .main__inner .info__wrapper .info-log__items .info-log__text {
   color: white;
-  margin: 18px 0 0;
+  margin: 18px 0px 0px;
 }
 .main .main__inner .info__wrapper .info-log__items .btn {
-  margin: 25px 0 0 20px;
+  margin: 25px 0px 0px 20px;
 }
 .main .main__inner .info__wrapper .info-log__items .btn .btn__items {
   display: flex;
@@ -154,13 +154,13 @@ ul {
   background-color: rgb(157, 123, 3);
 }
 .main .picture__wrapper .picture__items .picture__text--primary {
-  margin: 20px 0;
+  margin: 20px 0px;
   font-size: 1.3rem;
   color: rgb(0, 140, 255);
 }
 .main .picture__wrapper .picture__items .picture__text {
   width: 316px;
-  margin: 0 0 124px;
+  margin: 0px 0px 124px;
   text-align: center;
   line-height: 25px;
   color: #6c6c6c;
@@ -169,7 +169,7 @@ ul {
   display: flex;
   -moz-column-gap: 80px;
        column-gap: 80px;
-  margin: 0 0 0 55px;
+  margin: 0px 0px 0px 55px;
 }
 .main .about-shoping .about__items {
   display: flex;
@@ -179,15 +179,15 @@ ul {
   font-family: "Open Sans", sans-serif;
   font-size: 2.7rem;
   color: #6f7173;
-  margin: 0 0 46px;
+  margin: 0px 0px 46px;
 }
 .main .about-shoping .about__texts {
-  margin: 33px 0 0;
+  margin: 33px 0px 0px;
 }
 .main .about-shoping .about__texts .about__text--special {
   font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
-  margin: 0 0 22px;
+  margin: 0px 0px 22px;
   color: rgb(114, 112, 112);
 }
 .main .about-shoping .about__texts .about__text--primary {
@@ -294,10 +294,10 @@ ul {
 }
 .main .main__inner .info__wrapper .info-log__items .info-log__text {
   color: white;
-  margin: 18px 0 0;
+  margin: 18px 0px 0px;
 }
 .main .main__inner .info__wrapper .info-log__items .btn {
-  margin: 25px 0 0 20px;
+  margin: 25px 0px 0px 20px;
 }
 .main .main__inner .info__wrapper .info-log__items .btn .btn__items {
   display: flex;
@@ -364,13 +364,13 @@ ul {
   background-color: rgb(157, 123, 3);
 }
 .main .picture__wrapper .picture__items .picture__text--primary {
-  margin: 20px 0;
+  margin: 20px 0px;
   font-size: 1.3rem;
   color: rgb(0, 140, 255);
 }
 .main .picture__wrapper .picture__items .picture__text {
   width: 316px;
-  margin: 0 0 124px;
+  margin: 0px 0px 124px;
   text-align: center;
   line-height: 25px;
   color: #6c6c6c;
@@ -379,7 +379,7 @@ ul {
   display: flex;
   -moz-column-gap: 80px;
        column-gap: 80px;
-  margin: 0 0 0 55px;
+  margin: 0px 0px 0px 55px;
 }
 .main .about-shoping .about__items {
   display: flex;
@@ -389,15 +389,15 @@ ul {
   font-family: "Open Sans", sans-serif;
   font-size: 2.7rem;
   color: #6f7173;
-  margin: 0 0 46px;
+  margin: 0px 0px 46px;
 }
 .main .about-shoping .about__texts {
-  margin: 33px 0 0;
+  margin: 33px 0px 0px;
 }
 .main .about-shoping .about__texts .about__text--special {
   font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
-  margin: 0 0 22px;
+  margin: 0px 0px 22px;
   color: rgb(114, 112, 112);
 }
 .main .about-shoping .about__texts .about__text--primary {

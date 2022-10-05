@@ -17,11 +17,11 @@
 
         .info-log__text {
           color: $special-color;
-          margin: 18px 0 0;
+          margin: 18px 0px 0px;
         }
 
         .btn {
-          margin: 25px 0 0 20px;
+          margin: 25px 0px 0px 20px;
 
           .btn__items {
             @include flex(flex, center, false, false);
@@ -93,14 +93,14 @@
       }
 
       .picture__text--primary {
-        margin: 20px 0;
+        margin: 20px 0px;
         font-size: 1.3rem;
         color: rgb(0, 140, 255);
       }
 
       .picture__text {
         width: 316px;
-        margin: 0 0 124px;
+        margin: 0px 0px 124px;
         text-align: center;
         line-height: 25px;
         color: $primary-color;
@@ -111,7 +111,7 @@
   .about-shoping {
     @include flex(flex, false, false, false);
     column-gap: 80px;
-    margin: 0 0 0 55px;
+    margin: 0px 0px 0px 55px;
 
     .about__items {
       @include flex(flex, false, column, false);
@@ -119,16 +119,16 @@
       .about__text {
         @include font(2.7rem);
         color: #6f7173;
-        margin: 0 0 46px;
+        margin: 0px 0px 46px;
       }
     }
 
     .about__texts {
-      margin: 33px 0 0;
+      margin: 33px 0px 0px;
 
       .about__text--special {
         @include font(1.5rem);
-        margin: 0 0 22px;
+        margin: 0px 0px 22px;
         color: rgb(114, 112, 112);
       }
 
