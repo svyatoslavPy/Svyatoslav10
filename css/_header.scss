@@ -2,12 +2,12 @@
   @include flex(flex, space-between, false, center);
 
   .nav {
+    @include flex(flex, false, false, center);
     .nav__item {
       &:hover {
         cursor: pointer;
       }
     }
-    @include flex(flex, false, false, center);
   }
 
   .nav__additionally {
