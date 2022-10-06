@@ -2,15 +2,12 @@
   @include flex(flex, space-between, false, center);
 
   .nav {
-<<<<<<< HEAD
     .nav__item {
       &:hover {
         cursor: pointer;
       }
     }
-=======
     @include flex(flex, false, false, center);
->>>>>>> refs/remotes/origin/main
   }
 
   .nav__additionally {
@@ -91,10 +88,6 @@
     .nav__item--primary {
       transition: 200ms;
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> refs/remotes/origin/main
     .nav__item,
     .nav__item--primary {
       &:hover {
@@ -102,22 +95,5 @@
         transition: 200ms;
       }
     }
-<<<<<<< HEAD
-=======
-
-    .nav__item--primary {
-      position: relative;
-
-      .nav__element::before {
-        position: absolute;
-        content: "";
-        display: block;
-        width: 72px;
-        height: 3.5px;
-        top: 50px;
-        background-color: rgb(60, 128, 255);
-      }
-    }
->>>>>>> refs/remotes/origin/main
   }
 }
