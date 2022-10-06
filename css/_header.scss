@@ -19,12 +19,12 @@
 		.nav__item--primary {
 			.nav__link {
 				&:after {
-					content: '';
+					content: "";
 					display: block;
 					position: absolute;
 					bottom: 15%;
 					top: 85px;
-					background: rgb(60, 128, 255);
+					background: $secondary-color;
 					width: 65px;
 					height: 5px;
 					border-radius: 100px;
@@ -45,12 +45,12 @@
 				}
 
 				&:after {
-					content: '';
+					content: "";
 					display: block;
 					position: absolute;
 					bottom: 15%;
 					top: 52px;
-					background: rgb(60, 128, 255);
+					background: $secondary-color;
 					height: 20%;
 					width: 0%;
 					transition: 2s;
