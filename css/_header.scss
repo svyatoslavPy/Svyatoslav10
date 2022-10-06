@@ -1,65 +1,82 @@
 .header__logo {
-  @include flex(flex, space-between, false, center);
+	@include flex(flex, space-between, false, center);
 
-  .nav {
-    @include flex(flex, false, false, center);
-    .nav__item {
-      &:hover {
-        cursor: pointer;
-      }
-    }
-  }
+	.nav {
+		@include flex(flex, false, false, center);
+		.nav__item {
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
 
-  .nav__additionally {
-    @include flex(flex, false, false, false);
-    column-gap: 36px;
-    color: $primary-color;
-    font-family: $font;
+	.nav__additionally {
+		@include flex(flex, false, false, false);
+		column-gap: 36px;
+		color: $primary-color;
+		font-family: $font;
 
-    .nav__link {
-      font-size: 1rem;
-      text-decoration: none;
-      font-family: $font;
-      color: gray;
-      position: relative;
+		.nav__item--primary {
+			.nav__link {
+				&:after {
+					content: '';
+					display: block;
+					position: absolute;
+					bottom: 15%;
+					top: 85px;
+					background: rgb(60, 128, 255);
+					width: 65px;
+					height: 5px;
+					border-radius: 100px;
+				}
+			}
+		}
 
-      &:hover {
-        cursor: pointer;
-      }
+		.nav__item {
+			.nav__link {
+				font-size: 1rem;
+				text-decoration: none;
+				font-family: $font;
+				color: gray;
+				position: relative;
 
-      &:after {
-        content: "";
-        display: block;
-        position: absolute;
-        bottom: 15%;
-        top: 52px;
-        background: rgb(60, 128, 255);;
-        height: 20%;
-        width: 0%;
-        transition: 2s;
-        border-radius: 100px;
-        opacity: 0;
-      }
+				&:hover {
+					cursor: pointer;
+				}
 
-      &:hover {
-        &:after {
-          width: 100%;
-          opacity: 1;
-        }
-      }
-    }
-   
+				&:after {
+					content: '';
+					display: block;
+					position: absolute;
+					bottom: 15%;
+					top: 52px;
+					background: rgb(60, 128, 255);
+					height: 20%;
+					width: 0%;
+					transition: 2s;
+					border-radius: 100px;
+					opacity: 0;
+				}
 
-    .nav__item,
-    .nav__item--primary {
-      transition: 200ms;
-    }
-    .nav__item,
-    .nav__item--primary {
-      &:hover {
-        color: rgb(29, 27, 27);
-        transition: 200ms;
-      }
-    }
-  }
+				&:hover {
+					&:after {
+						width: 100%;
+						opacity: 1;
+					}
+				}
+			}
+		}
+
+		.nav__item,
+		.nav__item--primary {
+			transition: 200ms;
+		}
+		.nav__item,
+		.nav__item--primary {
+			&:hover {
+				color: rgb(29, 27, 27);
+				transition: 200ms;
+			}
+		}
+	}
 }
