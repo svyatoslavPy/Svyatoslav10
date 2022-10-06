@@ -49,7 +49,6 @@ ul {
   font-family: "Open Sans", sans-serif;
   color: gray;
   position: relative;
-  transition: color 0.8s, text-shadow 0.8s;
 }
 .header__logo .nav__additionally .nav__link:hover {
   cursor: pointer;
@@ -280,7 +279,6 @@ ul {
   font-family: "Open Sans", sans-serif;
   color: gray;
   position: relative;
-  transition: color 0.8s, text-shadow 0.8s;
 }
 .header__logo .nav__additionally .nav__link:hover {
   cursor: pointer;
