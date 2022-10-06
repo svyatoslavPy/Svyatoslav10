@@ -49,40 +49,7 @@
         }
       }
     }
-
-    .nav__link--primary {
-      &:after {
-        right: 0;
-      }
-
-      &:hover {
-        &:after {
-          right: auto;
-          left: 0;
-        }
-      }
-    }
-
-    .nav__link--special {
-      &:after {
-        left: 0;
-      }
-
-      &:hover {
-        &:after {
-          left: auto;
-          right: 0;
-        }
-      }
-    }
-
-    .nav__link--secondary {
-      &:after {
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-      }
-    }
+   
 
     .nav__item,
     .nav__item--primary {

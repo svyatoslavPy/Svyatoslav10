@@ -71,25 +71,6 @@ ul {
   width: 100%;
   opacity: 1;
 }
-.header__logo .nav__additionally .nav__link--primary:after {
-  right: 0;
-}
-.header__logo .nav__additionally .nav__link--primary:hover:after {
-  right: auto;
-  left: 0;
-}
-.header__logo .nav__additionally .nav__link--special:after {
-  left: 0;
-}
-.header__logo .nav__additionally .nav__link--special:hover:after {
-  left: auto;
-  right: 0;
-}
-.header__logo .nav__additionally .nav__link--secondary:after {
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
 .header__logo .nav__additionally .nav__item,
 .header__logo .nav__additionally .nav__item--primary {
   transition: 200ms;
@@ -320,25 +301,6 @@ ul {
 .header__logo .nav__additionally .nav__link:hover:after {
   width: 100%;
   opacity: 1;
-}
-.header__logo .nav__additionally .nav__link--primary:after {
-  right: 0;
-}
-.header__logo .nav__additionally .nav__link--primary:hover:after {
-  right: auto;
-  left: 0;
-}
-.header__logo .nav__additionally .nav__link--special:after {
-  left: 0;
-}
-.header__logo .nav__additionally .nav__link--special:hover:after {
-  left: auto;
-  right: 0;
-}
-.header__logo .nav__additionally .nav__link--secondary:after {
-  left: 0;
-  right: 0;
-  margin: 0 auto;
 }
 .header__logo .nav__additionally .nav__item,
 .header__logo .nav__additionally .nav__item--primary {
