@@ -1,5 +1,18 @@
 $primary-color: #6c6c6c;
 $special-color: white;
+$font:  "Open Sans", sans-serif; // main font-family
+
+
+@import 'reset'; // reset.css
+
+@import "mixin/mixin"; // mixin
+
+@import "header"; // header
+ 
+@import "main"; // main
+ 
+@import "footer"; // footer
+
 $font: 'Open Sans', sans-serif; // main font-family
 
 @import 'reset'; // reset.css

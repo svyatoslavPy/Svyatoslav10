@@ -4,9 +4,8 @@
 
   .footer__items {
     @include flex(flex, center, false, false);
-    padding: 20px;
+    padding: 40px;
     font-family: $font;
     color: gray;
   }
 }
-
